@@ -1,0 +1,14 @@
+{
+  "name": "project-html-website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve --listen ${PORT:-8080}"
+  },
+  "dependencies": {
+    "serve": "11.1.0"
+  },
+  "devDependencies": {
+    "cypress": "4.11.0"
+  }
+}
